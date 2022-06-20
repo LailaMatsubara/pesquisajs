@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>JavaScript</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container">
+        <a class="navbar-brand fs-4 text-uppercase" href="#!">JavaScript</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <article>
+            <header class="mb-4">
+              <h1 class="fw-bolder mb-1">Conheça a linguagem JavaScript</h1>
+
+              <div class="text-muted fst-italic mb-2">
+                Postado em Setembro 19, 2021 by Laila Matsubara
+                
+              </div>
+
+              <a
+                class="badge bg-secondary text-decoration-none link-light"
+                href="#!"
+                >Web Design</a
+              >
+              <a
+                class="badge bg-secondary text-decoration-none link-light"
+                href="#!"
+                >Linguagens</a
+              >
+            </header>
+
+            <figure class="mb-4">
+              <img
+                class="img-fluid rounded"
+                src="img/main-img.jpg"
+                width="900px"
+                alt="..."
+              />
+            </figure>
+
+            <section class="mb-5">
+              <p class="fs-5 mb-4">
+                JavaScript® é uma linguagem leve, interpretada e baseada em
+                objetos com funções de primeira classe, mais conhecida como a
+                linguagem de script para páginas Web, mas usada também em vários
+                outros ambientes sem browser, tais como node.js.
+              </p>
+              <p class="fs-5 mb-4">
+                O JavaScript é uma linguagem baseada em protótipos,
+                multi-paradigma e dinâmica, suportando estilos de orientação a
+                objetos, imperativos e declarativos (como por exemplo a
+                programação funcional). Saiba mais sobre o JavaScript.
+              </p>
+              <p class="fs-5 mb-4">
+                Não se deve confundir o JavaScript com a linguagem de
+                programação Java. No entanto, as duas linguagens de programação
+                possuem sintaxe, semânticas e usos muito diferentes.
+              </p>
+              <h2 class="fw-bolder mb-4 mt-5">História</h2>
+              <p class="fs-5 mb-4">
+                O JavaScript foi criado na década de 90 por Brendan Eich a
+                serviço da Netscape. Essa década foi um período de revolução,
+                pois os browsers ainda eram estáticos. O navegador mais popular
+                dessa época era o Mosaic, da NCSA.
+              </p>
+              <p class="fs-5 mb-4">
+                A Netscape foi fundada em 1994 para explorar a Web que estava
+                surgindo. Foi então criado o Netscape Navigator. Em pouco tempo,
+                este se tornou o browser dominante nessa década. Muitos
+                desenvolvedores da NCSA foram designados no projeto do
+                Navigator.
+              </p>
+
+              <p class="fs-5 mb-4">
+                A Netscape foi fundada em 1994 para explorar a Web que estava
+                surgindo. Foi então criado o Netscape Navigator. Em pouco tempo,
+                este se tornou o browser dominante nessa década. Muitos
+                desenvolvedores da NCSA foram designados no projeto do
+                Navigator.
+              </p>
+              <p class="fs-5 mb-4">
+                Depois que o JavaScript foi criado, a Microsoft criou, em Agosto
+                de 1996, uma linguagem idêntica para ser usada no Internet
+                Explorer 3. Para conter a ambição da Microsoft, a Netscape
+                decidiu normatizar a linguagem através da organização ECMA
+                International, companhia que era especializada em padrões e
+                normativas.
+              </p>
+
+              <h2 class="fw-bolder mb-4 mt-5">Definindos variaveis com JS</h2>
+              <p class="fs-5 mb-4">
+                Variáveis são ferramentas indispensáveis na programação, são
+                nelas que colocamos valores para podermos trabalhar com eles
+                posteriormente, similar à álgebra da matemática. As variáveis
+                são um dos fatores para mantermos o código dinâmico, fácil de
+                ser lido, compreendido e escalável.
+              </p>
+
+              <p class="fs-5 mb-4">
+                Diferentemente de outras linguagens, como Java, no JavaScript
+                não há necessidade de declarar o tipo da variável, mas isso não
+                significa que ela não tem tipo, na verdade o JS faz a tipagem
+                dinamicamente, similar ao PHP. No JavaScript nós temos que nos
+                atentar quando vamos declarar variáveis usando var ou let, pois
+                cada uma possuí diferenças que são importantes.
+              </p>
+
+              <ul class="fs-5 mb-4">
+                <li>
+                  <span class="fw-bold">var: </span>Declara uma variável,
+                  opcionalmente, inicializando-a com um valor.
+
+                  <figure class="m-4">
+                    <img
+                      class="img-fluid rounded"
+                      src="img/variavel-var.jpg"
+                      alt="..."
+                    />
+                  </figure>
+                </li>
+                <li>
+                  <span class="fw-bold">let: </span>Declara uma variável local
+                  de escopo do bloco, opcionalmente, inicializando-a com um
+                  valor.
+
+                  <figure class="m-4">
+                    <img
+                      class="img-fluid rounded"
+                      src="img/variavel-let.png"
+                      alt="..."
+                    />
+                  </figure>
+                </li>
+                <li>
+                  <span class="fw-bold">const </span>Declara uma variável local
+                  de escopo do bloco, opcionalmente, inicializando-a com um
+                  valor.
+
+                  <figure class="m-4">
+                    <img
+                      class="img-fluid rounded"
+                      src="img/variavel-const.png"
+                      alt="..."
+                    />
+                  </figure>
+                </li>
+              </ul>
+
+              <h2 class="fw-bolder mb-4 mt-5">Declarações Condicionais</h2>
+              <p class="fs-5 mb-4">
+                Uma declaração condicional é um conjunto de comandos que são
+                executados caso uma condição especificada seja verdadeira.
+              </p>
+
+              <p class="fs-5 mb-4">
+                Use a declaração if para executar alguma declaração caso a
+                condição lógica for verdadeira. Use a cláusula opcional else
+                para executar alguma declaração caso a condição lógica for
+                falsa.
+              </p>
+              <figure class="m-4">
+                <img
+                  class="img-fluid rounded"
+                  src="img/if-else.png"
+                  alt="..."
+                />
+              </figure>
+
+              <h2 class="fw-bolder mb-2 mt-5">Laços e iterações</h2>
+              <h3 class="fw-bolder mb-4">Laço For</h3>
+              <p class="fs-5 mb-4">
+                Um laço for é repetido até que a condição especificada seja
+                falsa.
+              </p>
+              <figure class="m-4">
+                <img class="img-fluid rounded" src="img/for.png" alt="..." />
+              </figure>
+
+              <p class="fs-5 mb-4">
+                Quando um for é executado, ocorre o seguinte:
+              </p>
+              <ol class="fs-5 mb-4">
+                <li class="mb-3">
+                  A expressão expressao Inicial é inicializada e, caso possível,
+                  é executada. Normalmente essa expressão inicializa um ou mais
+                  contadores, mas a sintaxe permite expressões de qualquer grau
+                  de complexidade. Podendo conter também declaração de
+                  variáveis.
+                </li>
+                <li class="mb-3">
+                  A expressão condicao é avaliada. caso o resultado de condicao
+                  seja verdadeiro, o laço é executado. Se o valor de condicao é
+                  falso, então o laço terminará. Se a expressão condicao é
+                  omitida, a condicao é assumida como verdadeira.
+                </li>
+                <li class="mb-3">
+                  A instrução é executada. Para executar múltiplas declarações,
+                  use uma declaração em bloco ({ ... }) para agrupá-las.
+                </li>
+                <li class="mb-3">
+                  A atualização da expressão incremento, se houver, executa, e
+                  retorna o controle para o passo 2.
+                </li>
+              </ol>
+
+              <h3 class="fw-bolder mb-4">Laço While</h3>
+              <p class="fs-5 mb-4">
+                Uma declaração while executa suas instruções, desde que uma
+                condição especificada seja avaliada como verdadeira.
+              </p>
+
+              <figure class="m-4">
+                <img class="img-fluid rounded" src="img/while.png" alt="..." />
+              </figure>
+              <p class="fs-5 mb-4">
+                Se a condição se tornar falsa, a declaração dentro do laço para
+                a execução e o controle é passado para a instrução após o laço.
+              </p>
+              <p class="fs-5 mb-4">
+                O teste da condição ocorre antes que o laço seja executado.
+                Desta forma se a condição for verdadeira o laço executará e
+                testará a condição novamente. Se a condição for falsa o laço
+                termina e passa o controle para as instruções após o laço.
+              </p>
+              <p class="fs-5 mb-4">
+                Para executar múltiplas declarações, use uma declaração em bloco
+                ({ ... }) para agrupar essas declarações.
+              </p>
+
+              <h3 class="fw-bolder mb-4">Laço Do-While</h3>
+              <p class="fs-5 mb-4">
+                A instrução do...while repetirá até que a condição especificada
+                seja falsa.
+              </p>
+
+              <figure class="m-4">
+                <img class="img-fluid rounded" src="img/while.png" alt="..." />
+              </figure>
+              <p class="fs-5 mb-4">
+                A instrução será executada uma vez antes da condição ser
+                verificada. Para executar multiplas instruções utilize uma
+                declaração de bloco ({ ... }) para agrupá-las. Caso a condicao
+                seja verdadeira, então o laço será executado novamente. Ao final
+                de cada execução, a condicao é verificada. Quando a condição
+                contida no while for falsa a execução do laço é terminada e o
+                controle é passado para a instrução seguinte a do...while.
+              </p>
+
+              <h3 class="fw-bolder mb-4">Alert em JavaScript</h3>
+              <p class="fs-5 mb-4">
+                O alert é uma das mais simples caixas de diálogo, com uma
+                aparência simples e intuitiva elas são muito usadas em
+                validações de formulários e/ou bloqueio de ações do browser. Sua
+                principal função é mostrar ao usuário uma mensagem e um botão de
+                confirmação de que o usuário tenha visto a mensagem. Para chamar
+                essa função, basta utilizarmos o código alert(), que receberá
+                uma string(mensagem que será exibida ao usuário)
+              </p>
+              <figure class="m-4">
+                <img class="img-fluid rounded" src="img/alert.png" alt="..." />
+              </figure>
+              <figure class="m-4">
+                <img
+                  class="img-fluid rounded"
+                  src="img/alert-browser.png"
+                  alt="..."
+                />
+              </figure>
+
+              <button
+                onclick="alert('Eu sou um alert, uma menssaginha')"
+                type="button"
+                class="btn btn-warning w-100 mb-4 p-2"
+              >
+                Clique aqui para ver ao vivo
+              </button>
+
+              <h3 class="fw-bolder mb-4">Document Write</h3>
+              <p class="fs-5 mb-4">
+                O método Document.write() grava uma sequência de caracteres em
+                um documento aberto por document.open()
+              </p>
+
+              <figure class="m-4">
+                <img
+                  class="img-fluid rounded"
+                  src="img/document-write.png"
+                  alt="..."
+                />
+              </figure>
+
+              <h3 class="fw-bolder mb-4">MouseEvent</h3>
+              <p class="fs-5 mb-4">
+                A interface MouseEvent representa eventos que ocorrem devido à
+                interação do usuário com um dispositivo apontador (como um
+                mouse). Eventos comuns usando esta interface incluem click,
+                dblclick, mouseup, mousedown.
+              </p>
+              <p class="fs-5 mb-4">
+                MouseEvent deriva de UIEvent, que por sua vez deriva de Event.
+                Embora o método MouseEvent.initMouseEvent() seja mantido para
+                compatibilidade com versões anteriores, a criação de um objeto
+                MouseEvent deve ser feita usando o construtor MouseEvent().
+              </p>
+              <p class="fs-5 mb-4">
+                Vários eventos mais específicos derivam de MouseEvent como:
+                WheelEvent e DragEvent.
+              </p>
+            </section>
+          </article>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card mb-4">
+            <div class="card-header">Pesquisar</div>
+            <div class="card-body">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Digite o termo procurado..."
+                  aria-label="Digite o termo procurado..."
+                  aria-describedby="button-search"
+                />
+                <button
+                  class="btn btn-primary"
+                  id="button-search"
+                  type="button"
+                >
+                  Ir
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-header">Categorias</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="#!">Web Design</a></li>
+                    <li><a href="#!">HTML</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0">
+                    <li><a href="#!">JavaScript</a></li>
+                    <li><a href="#!">CSS</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-header">Referencias</div>
+            <div class="card-body">
+              <a> https://developer.mozilla.org/pt-BR/docs/Web/JavaScript</a>
+              <br /><br />
+              <a>https://www.devmedia.com.br/alert-em-javascript/37208</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Laila Matsubara Fugarino
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
